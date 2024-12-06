@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <LinearLayout
+                android:id="@+id/app_info"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/app_icon"
+                    android:layout_width="100sp"
+                    android:layout_height="100sp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="2dp"
+                    android:contentDescription="@string/app_icon"
+                    android:src="@mipmap/ic_launcher" />
+
+                <TextView
+                    android:id="@+id/app_name"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="2dp"
+                    android:fontFamily="@font/caveat_brush"
+                    android:gravity="center"
+                    android:paddingTop="8dp"
+                    android:text="@string/app_name"
+                    android:textColor="?attr/colorPrimary"
+                    android:textSize="34sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/version"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="2dp"
+                    android:fontFamily="@font/caveat_brush"
+                    android:gravity="center"
+                    android:paddingTop="4dp"
+                    android:text="@string/version_name"
+                    android:textColor="?attr/colorPrimary"
+                    android:textSize="30sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/copyright"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="4dp"
+                    android:fontFamily="@font/caveat_brush"
+                    android:gravity="center"
+                    android:paddingTop="4dp"
+                    android:text="@string/copyrights"
+                    android:textColor="?attr/android:textColor"
+                    android:textSize="28sp" />
+
+                <TextView
+                    android:id="@+id/reserved"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:fontFamily="@font/caveat"
+                    android:gravity="center"
+                    android:paddingTop="4dp"
+                    android:text="@string/reserved"
+                    android:textColor="?attr/android:textColor"
+                    android:textSize="28sp" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/about_content"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="32dp"
+                android:layout_marginBottom="2dp"
+                android:fontFamily="@font/caveat"
+                android:gravity="center"
+                android:paddingTop="4dp"
+                android:text="@string/apps_description"
+                android:textColor="?attr/android:textColor"
+                android:textSize="30sp" />
+
+            <LinearLayout
+                android:id="@+id/dev_info"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/developer"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="32dp"
+                    android:layout_marginBottom="4dp"
+                    android:fontFamily="@font/caveat_brush"
+                    android:gravity="center"
+                    android:paddingTop="4dp"
+                    android:text="@string/developer"
+                    android:textColor="?attr/colorPrimary"
+                    android:textSize="30sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/android_engineering"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:fontFamily="@font/caveat_brush"
+                    android:gravity="center"
+                    android:paddingTop="4dp"
+                    android:text="@string/android_engineering"
+                    android:textColor="?attr/colorPrimary"
+                    android:textSize="28sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/developer_name_textView1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:fontFamily="@font/caveat"
+                    android:gravity="center"
+                    android:paddingTop="4dp"
+                    android:text="@string/dev_name"
+                    android:textColor="?attr/android:textColor"
+                    android:textSize="28sp" />
+
+                <TextView
+                    android:id="@+id/ui_designer"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="4dp"
+                    android:fontFamily="@font/caveat_brush"
+                    android:gravity="center"
+                    android:paddingTop="4dp"
+                    android:text="@string/ui_designer"
+                    android:textColor="?attr/colorPrimary"
+                    android:textSize="28sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/developer_name_textView2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:fontFamily="@font/caveat"
+                    android:gravity="center"
+                    android:paddingTop="4dp"
+                    android:text="@string/dev_name"
+                    android:textColor="?attr/android:textColor"
+                    android:textSize="28sp" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/bottom_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:layout_marginBottom="8dp"
+                android:fontFamily="@font/caveat_brush"
+                android:gravity="center"
+                android:paddingTop="4dp"
+                android:text="@string/contacts"
+                android:textAlignment="center"
+                android:textColor="?attr/android:textColor"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

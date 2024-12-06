@@ -1,0 +1,26 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.ArtBookJava" parent="Theme.Material3.DayNight">
+        <!-- Customize your dark theme here. -->
+        <!-- <item name="colorPrimary">@color/my_dark_primary</item> -->
+        <item name="colorAccent">@color/colorPrimaryDark</item>
+        <item name="colorPrimary">@color/colorPrimaryDark</item>
+        <item name="actionBarStyle">@style/DarkTheme.ActionBar</item>
+        <item name="android:statusBarColor">@color/colorPrimaryDark</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textColorPrimary">@color/white</item>
+        <item name="android:textColorHint">@color/white</item>
+        <item name="colorPrimaryDark">#039BE5</item>
+    </style>
+
+    <!-- Light Theme ActionBar Style -->
+    <style name="DarkTheme.ActionBar" parent="Widget.MaterialComponents.ActionBar.Primary">
+        <item name="background">@color/colorPrimaryDark</item>
+        <item name="titleTextStyle">@style/ActionBarTitle</item>
+    </style>
+
+    <!-- ActionBar Title Style -->
+    <style name="ActionBarTitle" parent="TextAppearance.AppCompat.Widget.ActionBar.Title">
+        <item name="android:textSize">20sp</item>
+    </style>
+</resources>

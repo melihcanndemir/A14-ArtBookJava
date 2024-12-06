@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Art Book</string>
+    <string name="add_art">Add Art</string>
+    <string name="artAdd">Art Add</string>
+    <string name="about">About</string>
+    <string name="version_name">Version v1.0.0</string>
+    <string name="copyrights">Copyright 2024 Melih Can Demir™</string>
+    <string name="reserved">All Rights Reserved</string>
+    <string name="developer">- Development Team -</string>
+    <string name="android_engineering">Android Engineering</string>
+    <string name="dev_name">Melih Can Demir</string>
+    <string name="ui_designer">User Interface Designer</string>
+    <string name="operation_manager">Operation Manager</string>
+    <string name="contacts">For any inquiries or support, please\ncontact us at melihcandemir@protonmail.com</string>
+    <string name="apps_description">ArtBook is a user-friendly application designed for art lovers to easily catalog and manage their favorite artworks.
+        Featuring a simple and intuitive interface, this app allows users to add, view, and organize artwork details,
+        including the artist\'s name, year, and a photo of the piece.
+        Whether you want to explore famous masterpieces or keep a digital archive of your personal favorites,
+        ArtBook offers a seamless way to maintain your own art collection.
+        Effortlessly browse, edit, or delete entries, making it the perfect companion for both casual art enthusiasts and serious collectors. </string>
+    <string name="app_icon">app icon</string>
+    <string name="navigation_drawer_open">Open drawer</string>
+    <string name="navigation_drawer_close">Close drawer</string>
+    <string name="add_artwork">Add Artwork</string>
+</resources>

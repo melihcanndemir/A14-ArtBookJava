@@ -1,0 +1,42 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.ArtBookJava" parent="Theme.MaterialComponents.Light">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+        <item name="colorAccent">@color/colorPrimary</item>
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="actionBarStyle">@style/LightTheme.ActionBar</item>
+        <item name="android:statusBarColor">@color/colorPrimary</item>
+        <item name="android:textColor">@color/textViewDark</item>
+        <item name="android:textColorPrimary">@color/white</item>
+    </style>
+
+    <style name="LightTheme.ActionBar" parent="Widget.MaterialComponents.ActionBar.Primary">
+        <item name="background">@color/colorPrimary</item>
+        <item name="titleTextStyle">@style/ActionBarTitle</item>
+    </style>
+
+    <!-- ActionBar Title Style -->
+    <style name="ActionBarTitle" parent="TextAppearance.AppCompat.Widget.ActionBar.Title">
+        <item name="android:textSize">20sp</item>
+    </style>
+
+    <style name="CustomAlertDialogTheme" parent="ThemeOverlay.MaterialComponents.Dialog.Alert">
+        <item name="android:background">?attr/colorSurface</item>
+        <item name="android:textColorPrimary">?attr/colorPrimary</item>
+        <item name="android:textColorSecondary">?attr/colorPrimary</item>
+        <item name="buttonBarPositiveButtonStyle">@style/CustomPositiveButton</item>
+        <item name="buttonBarNegativeButtonStyle">@style/CustomNegativeButton</item>
+    </style>
+
+    <!-- Custom Styles for Positive and Negative Buttons -->
+    <style name="CustomPositiveButton" parent="Widget.MaterialComponents.Button.TextButton.Dialog">
+        <item name="android:textColor">@color/green</item>
+    </style>
+
+    <style name="CustomNegativeButton" parent="Widget.MaterialComponents.Button.TextButton.Dialog">
+        <item name="android:textColor">@color/red</item>
+    </style>
+
+    <style name="Theme.ArtBookJava" parent="Base.Theme.ArtBookJava" />
+</resources>
